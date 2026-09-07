@@ -1,6 +1,2 @@
-[build]
-  command = "npm run build"
-  publish = "dist/client"
-
 [functions]
-  included_files = ["dist/client/index.html"]
+  included_files = ["packages/vite-ssr/dist/client/index.html"]
