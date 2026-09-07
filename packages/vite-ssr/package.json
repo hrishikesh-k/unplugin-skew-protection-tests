@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@netlify/functions": "6.0.0",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@vitejs/plugin-react": "6.1.1",
+    "typescript": "6.0.2",
+    "vite": "8.2.2"
+  },
+  "name": "vite-ssr",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "vite build --outDir dist/client",
+    "build:server": "vite build --outDir dist/server --ssr src/entry-server.tsx"
+  },
+  "type": "module",
+  "version": "0.0.0"
+}

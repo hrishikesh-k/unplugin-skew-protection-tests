@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@babel/core": "8.0.1",
+    "@babel/preset-env": "8.0.2",
+    "@babel/preset-react": "8.0.1",
+    "babel-loader": "10.1.1",
+    "css-loader": "7.1.5",
+    "html-webpack-plugin": "5.6.8",
+    "mini-css-extract-plugin": "2.10.2",
+    "webpack": "5.110.3",
+    "webpack-cli": "7.2.3",
+    "webpack-dev-server": "6.0.0"
+  },
+  "name": "webpack-spa",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development"
+  },
+  "type": "module",
+  "version": "0.0.0"
+}

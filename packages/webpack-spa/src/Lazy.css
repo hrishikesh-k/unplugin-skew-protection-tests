@@ -1,0 +1,7 @@
+.lazy-panel {
+  border: 2px dashed #1c78c0;
+  border-radius: 8px;
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  text-align: left;
+}

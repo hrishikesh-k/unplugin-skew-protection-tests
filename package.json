@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@netlify/unplugin-skew-protection": "file:./@netlify/unplugin-skew-protection",
+    "@types/node": "26.5.0",
+    "netlify-cli": "27.5.0"
+  },
+  "name": "unplugin-skew-protection-manual-tests",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@vitejs/plugin-react": "6.1.1",
+    "typescript": "6.0.2",
+    "vite": "8.2.2"
+  },
+  "name": "vite-mpa",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite dev"
+  },
+  "type": "module",
+  "version": "0.0.0"
+}
