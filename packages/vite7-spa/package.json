@@ -9,15 +9,10 @@
     "lint": "oxlint",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
-  },
   "devDependencies": {
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
-    "@netlify/unplugin-skew-protection": "file:../../framework-adapters/packages/unplugin-skew-protection",
     "@vitejs/plugin-react": "^5.2.0",
     "oxlint": "^1.79.0",
     "typescript": "~6.0.2",
