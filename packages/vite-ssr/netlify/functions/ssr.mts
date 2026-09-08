@@ -30,5 +30,5 @@ export default async function () {
 }
 
 export const config: Config = {
-  path: '/index.html',
+  path: '/',
 }
