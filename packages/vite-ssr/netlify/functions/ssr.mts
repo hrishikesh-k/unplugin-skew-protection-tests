@@ -19,7 +19,6 @@ const template = readFileSync(
 )
 
 export default async function () {
-  console.log(template)
   const { html: appHtml } = render()
   const html = template.replace('<!--app-html-->', appHtml)
 
@@ -31,6 +30,5 @@ export default async function () {
 }
 
 export const config: Config = {
-  path: '/*',
-  preferStatic: true
+  path: '/index.html',
 }
